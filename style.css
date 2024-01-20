@@ -11,7 +11,7 @@ body {
 .window-box {
   width: 400px;
   height: 200px;
-  background-color: green;
+  background-color: cyan;
   color: #fff;
   border: 1px solid black;
 }
