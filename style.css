@@ -9,14 +9,14 @@ body {
   background-color: #000;
 }
 .window-box {
-  width: 400px;
-  height: 200px;
-  background-color: #424242;
+  width: 300px;
+  height: 300px;
+  background-color: yellow;
   color: #fff;
   border: 1px solid black;
 }
 .window-text {
   padding-top: 5px;
   text-align:center;
-  color: yellow;
+  color: blue;
 }
