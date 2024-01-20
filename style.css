@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.window-title {
+  padding:4px;
+  margin:0;
+  font-size: 1.1em;
+  font-weight:bold;
+  background-color: #000;
+}
+.window-box {
+  width: 400px;
+  height: 200px;
+  background-color: #424242;
+  color: #fff;
+  border: 1px solid black;
+}
+.window-text {
+  padding-top: 5px;
+  text-align:center;
+  color: yellow;
+}

@@ -4,35 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Visiplus GIT Avancé - Exercice</title>
-  <style>
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-    }
-    h1 {
-      padding:4px;
-      margin:0;
-      background-color: #000;
-    }
-    .window-box {
-      width: 400px;
-      height: 200px;
-      background-color: #424242;
-      color: #fff;
-      border: 1px solid black;
-    }
-    .window-text {
-      padding-top: 5px;
-      text-align:center;
-      color: yellow;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="window-box">
-    <h1>Hello World</h1>
-    <div class="window-text">
-      This is a sample text : <b>Hello World !</b>
+  <div id="window" class="window-box">
+    <h1 id="title" class="window-title">This is the default title</h1>
+    <div id="label" class="window-text">
+      This is the default text
     </div>
   </div>
+  <script src="constantes.js"></script>
+  <script>
+    title.innerHTML = windowTitle;
+    label.innerHTML = windowLabel;
+  </script>
 </body>
 </html>
