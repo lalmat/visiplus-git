@@ -9,9 +9,9 @@ body {
   background-color: #000;
 }
 .window-box {
-  width: 300px;
-  height: 300px;
-  background-color: yellow;
+  width: 400px;
+  height: 200px;
+  background-color: green;
   color: #fff;
   border: 1px solid black;
 }
